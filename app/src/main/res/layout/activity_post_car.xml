@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/login_background">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/carmodel"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Model"
+        android:padding="20dp"
+        android:shadowRadius="10"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/category"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Category"
+        android:padding="20dp"
+        android:shadowRadius="10"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/description"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Description"
+        android:padding="20dp"
+        android:shadowRadius="10"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/contact"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carmodel"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Contact"
+        android:inputType="phone"
+        android:padding="20dp"
+        android:shadowRadius="10"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:src="@drawable/image"
+        android:id="@+id/selectimagesbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Select Images"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/postbutton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectimagesbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="POST"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

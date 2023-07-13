@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CarBid</string>
+    <string name="search_category">Search Category</string>
+    <string name="categories">Categories</string>
+</resources>

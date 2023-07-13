@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/carbg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sedan"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- App Description Text -->
+        <TextView
+            android:textColor="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/balsamiq_sans"
+            android:gravity="center"
+            android:text="buy.sell.carBID"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="serif-monospace"
+            android:text="Welcome to CarBid!\nBuy and sell cars like never before. Join our vibrant community of car enthusiasts and start bidding on your dream cars today."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="29sp"
+            android:textStyle="bold|italic" />
+
+        <!-- Scrollable Section -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Highlighted Feature 1 -->
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/feature_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Car Enthusiasts' Site!!"
+                    android:textSize="19sp"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Highlighted Feature 2 -->
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/feature_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buy cars at a DISCOUNT!!"
+                    android:textSize="19sp"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Highlighted Feature 3 -->
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/feature_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Best Car Selling Platform"
+                    android:textSize="19sp"
+                    android:layout_marginBottom="16dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Registration and Login Buttons -->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:tint="#FFFFFF"
+                app:backgroundTint="#2196F3"
+                android:id="@+id/register_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Create Account" />
+
+            <Button
+
+                android:tint="#000000"
+                app:backgroundTint="#2196F3"
+                android:id="@+id/login_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Login to an existing account" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

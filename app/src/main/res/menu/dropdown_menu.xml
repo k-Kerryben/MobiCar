@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_account"
+        android:title="Add Account"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/menu_option1"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/menu_option2"
+        android:title="Post Car"
+        android:icon="@drawable/add"/>
+
+
+    <item
+        android:id="@+id/collection"
+        android:title="Collection"
+        />
+    <item
+        android:id="@+id/menu_option3"
+        android:title="LogOut"
+        android:icon="@drawable/add"/>
+
+    <!-- Add more menu items if needed -->
+</menu>

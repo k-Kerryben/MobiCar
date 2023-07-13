@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "108314185500",
+    "firebase_url": "https://karwow-default-rtdb.firebaseio.com",
+    "project_id": "karwow",
+    "storage_bucket": "karwow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108314185500:android:897a6b07bd8f722113f4d9",
+        "android_client_info": {
+          "package_name": "com.example.carbid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108314185500-24p279v7umodou3p3luql6or2sl5u79t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI2GBGmyIz1ahKY5kfmk8WG4zT7Rz0syg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108314185500-24p279v7umodou3p3luql6or2sl5u79t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108314185500:android:ae99a1ee8d2c9f6a13f4d9",
+        "android_client_info": {
+          "package_name": "com.example.karwow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108314185500-24p279v7umodou3p3luql6or2sl5u79t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI2GBGmyIz1ahKY5kfmk8WG4zT7Rz0syg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108314185500-24p279v7umodou3p3luql6or2sl5u79t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
